@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button>Sign-in with ODDS Account</button>
+    <router-link to="/checkin">
+      <button>Sign-in with ODDS Account</button>
+    </router-link>
   </div>
 </template>
 
